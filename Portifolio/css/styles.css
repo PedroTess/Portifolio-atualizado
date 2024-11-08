@@ -122,6 +122,10 @@ section.hero-site {
 
 /* Conteudo sobre mim */
 
+.sobre-mim-site {
+    margin-bottom: 60px;
+}
+
 .sobre-mim-site .interface {
     display: flex;
     gap: 50px;
@@ -173,4 +177,45 @@ section.hero-site {
     background-color: #009DFF;
     color: black;
     border: 1px solid #009DFF;
+}
+
+/* Habilidades */
+
+.habilidade-site .interface {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.txt-hb {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.txt-hb h1 {
+    color: #009DFF;
+    font-family: "Kanit", sans-serif;
+    font-size: 2rem;
+}
+
+.txt-hb p {
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.1rem;
+}
+
+.img-hb {
+    width: 500px;
+    gap: 50px;
+}
+
+.img-hb img {
+    width: 100px;
+    margin: 10px;
+}
+
+.img-hb img:hover {
+    transform: scale(1.05);
+    transition: .4s;
 }

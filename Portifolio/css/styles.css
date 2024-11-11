@@ -181,6 +181,10 @@ section.hero-site {
 
 /* Habilidades */
 
+.habilidade-site {
+    margin-bottom: 110px;
+}
+
 .habilidade-site .interface {
     display: flex;
     gap: 50px;
@@ -216,6 +220,66 @@ section.hero-site {
 }
 
 .img-hb img:hover {
+    transform: scale(1.05);
+    transition: .4s;
+}
+
+/* Estilo dos projetos */
+
+.projetos .interface {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+
+.itens-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.img-projetos img {
+   max-width: 320px;
+   border-radius: 8px;
+}
+
+.txt-projetos h2 {
+    color: #ffffff;
+    font-family: "Agdasima", sans-serif;
+}
+
+.txt-projetos h3 {
+    color: #009DFF;
+    font-family: "Agdasima", sans-serif;
+}
+
+.txt-projetos p {
+    color: #ffffff;
+    font-family: "Agdasima", sans-serif;
+}
+
+.txt-esq {
+    text-align: end;
+}
+
+.btn-projetos {
+    width: 140px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #009DFF;
+    border: 1px solid #009DFF;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Agdasima", sans-serif;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: .5s;
+}
+
+.btn-projetos:hover {
     transform: scale(1.05);
     transition: .4s;
 }

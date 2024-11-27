@@ -1,4 +1,3 @@
-
 let navBar = document.querySelector('#header')
 
 document.addEventListener("scroll", ()=>{

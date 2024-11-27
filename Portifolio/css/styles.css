@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden; /* Remove o scroll horizontal */
+    width: 100%; /* Garante que o layout não extrapole */
+}
+
 body {
     background-color: #232323;
 }

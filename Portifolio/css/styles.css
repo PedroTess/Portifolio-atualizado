@@ -13,6 +13,14 @@ body {
     margin: 0 auto;
 }
 
+/* Animações */
+
+.efeito-img-sm, .efeito-txt-sm, .titulo, .efeito-txt-hb, .img-hb1, .img-hb2, .img-hb3, .img-hb4, .img-hb5, .img-hb6, .img-hb7, .img-hb8, .pj-drt, .pj-esq  {
+    visibility: hidden;
+}
+
+
+
 /* Estilo do Header */
 
 header {
